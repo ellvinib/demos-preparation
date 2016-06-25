@@ -41,7 +41,7 @@ setTimeout(person.growOld,1000);
 setTimeout(function() { console.log(person.age); },2000); // wat is deze output ?
 
 //De reden dat dit werkt is omdat this wordt opgevangen van buiten de functie laten we eens kijken naar de javascript code
-
+// dit zou je normaal zelf schrijven 
 function PersonC(age) {
     this.age = age
     var _this = this;  // capture this

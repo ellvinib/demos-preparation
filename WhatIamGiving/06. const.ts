@@ -5,7 +5,7 @@ block scoped !!
 
 const fooVar = 123;
 if (true) {
-    const fooVar = 456; // Atoegestaan omdat het een nnieuwe variable is binnen de if
+    const fooVar = 456; // A toegestaan omdat het een nnieuwe variable is binnen de if
 }
 
 
@@ -14,7 +14,7 @@ if (true) {
 const fooObject = { bar: 123 };
 
 //NIET TOEGESTAAN
-//  fooObject = {bar: 66}
+fooObject = {bar: 66}
 
 
 //Wel toegestaan !

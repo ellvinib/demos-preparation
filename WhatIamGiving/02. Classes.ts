@@ -3,6 +3,7 @@ Met typescript kan je niet alleen type safty gebruiken maar ook classes
 Handig voor als we grote applicaties willen schrijven en OO gebruiken
 */
 
+/* MANIER 1 om met properties te werken */
 class Animal_A {
    private naam: string;
 
@@ -11,11 +12,12 @@ class Animal_A {
     }
 
     loop(){
+        //Gebruik van ${} template strings 
         console.log(`Het dier met de naam ${this.naam} loopt`)
     }
 
 }
-
+/* MANIER 2 om met properties te werken */
 class Animal_B {
     constructor(private naam:string){
         this.naam = naam;
@@ -26,7 +28,7 @@ class Animal_B {
     }
 
 }
-
+/* MANIER 3 om met properties te werken */
 class Animal_C {
     constructor(private naam:string){
     }
